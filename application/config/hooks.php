@@ -10,7 +10,12 @@
 |
 */
 
-
+$hook['pre_controller'] = array(
+  'class'    => '',
+  'function' => 'check_environment',
+  'filename' => 'Environment.php',
+  'filepath' => 'hooks'
+);
 
 /* End of file hooks.php */
 /* Location: ./application/config/hooks.php */
